@@ -1,17 +1,17 @@
 .body{
-margin: auto;
+margin: 0px;
+font-family:Arial, Helvetica, sans-serif;
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header{
     background-image: url("../images/apple-pie.jpg");
     background-repeat: no-repeat;
-    height: 50em;
+    height: 20em;
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    position: relative;
+    padding: 50rem;
     
     
 }
@@ -19,10 +19,9 @@ header{
 h1{
 color: rgb(255, 255, 255);
 text-align: center;
-position: absolute;
-font-size:  5em;
-top: 50%;
-left: 50%;
+justify-content: center;
+margin-top: 100px;
+
 }
 
 p{
